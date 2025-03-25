@@ -33,7 +33,7 @@ export default function Introduction() {
                 </div>
             </div>
             <div className="select-text w-96 break-words my-2 text-lg">
-                I'm a self-motivated Web backend developer with the business focus, the learning mindset, always ready for new challenges and 3+ years of experience in the design and develop backend microservice system by Golang. Also researched and participated in building infrastructure in the software development process.
+                I&apos;m a self-motivated Web backend developer with the business focus, the learning mindset, always ready for new challenges and 3+ years of experience in the design and develop backend microservice system by Golang. Also researched and participated in building infrastructure in the software development process.
             </div>
         </div>
     </div>;
