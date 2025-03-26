@@ -2,8 +2,12 @@ import Image from 'next/image'
 import profilePic from '../assets/image/me.jpg'
 import Link from "next/link";
 import { Phone, GithubIcon, MapPinHouse, Mail } from 'lucide-react';
+import LangSelector from './langSelector';
+import { useTranslations } from 'next-intl';
+import { Data } from '@/global/const';
 
 export default function Introduction() {
+    const t = useTranslations();
     return <div className="flex flex-row my-4 mx-auto gap-4">
         <Image
             className="rounded-3xl shadow-2xl"
@@ -12,7 +16,10 @@ export default function Introduction() {
             width={400}
         />
         <div className="flex flex-col">
-            <h3 className="4xl font-bold">TU NGUYEN</h3>
+            <div className="flex flex-row justify-between ">
+                <h3 className="4xl font-bold">{t(Data["DEVELOPER_NAME"])}</h3>
+                <LangSelector/>
+            </div>
             <p className="text-xl my-2 font-bold">Backend developer | Software Engineer </p>
             <div className="select-text text-sm mx-4">
                 <div className="flex items-center gap-2">
