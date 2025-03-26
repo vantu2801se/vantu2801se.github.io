@@ -2,7 +2,7 @@ import Education from "@/components/education";
 import Experience from "@/components/experience";
 import Footer from "@/components/footer";
 import Introduction from "@/components/introduction";
-import ShortKey from "@/components/short_key";
+import ShortKey from "@/components/shortkey";
 
 export default function Home() {
   return (
