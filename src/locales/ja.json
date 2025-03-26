@@ -1,0 +1,15 @@
+{
+    "introduction_header_name": "TU NGUYEN",
+    "introduction_header_role_title":"バックエンド開発者 ・ ソフトウェアエンジニア",
+    "introduction_contact_address": "ダナン市、 ベトナム ",
+    "introduction_description": "ビジネス志向を持ち、学習意欲が高く、新しい挑戦に常に備えている自己主導型のWebバックエンド開発者です。Golangを使用して、バックエンドのマイクロサービスシステムの設計および開発に3年以上の経験があります。また、ソフトウェア開発プロセスにおけるインフラ構築の研究や実践にも携わりました。",
+
+    "shortkey_title": "主要な能力",
+    "shortkey_detail": {
+        "1":"Golang に精通しており、高並行性サービスや高パフォーマンスの実装が可能",
+        "2":"Terraform IaC に精通し、Terraform を使用してインフラを構築した経験があり、GitHub Actions や CircleCI などの CI/CD ツールと組み合わせて運用可能",
+        "3":"Linux・WSL オペレーティングシステムの使用経験あり",
+        "4":"Docker などのサービスデプロイツール、および K8S などのコンテナオーケストレーション・管理ツールの使用経験あり",
+        "5":"GCP と AWS の両方での業務経験があり、Cloud Identity を通じたマルチクラウド通信の設定が可能"
+    }
+}
