@@ -17,7 +17,7 @@ export default function Introduction() {
             <div className="select-text text-sm mx-4">
                 <div className="flex items-center gap-2">
                     <Mail size={16} /> 
-                    <p> nguyenvantu28011998@gmail.com </p>
+                    <p> nguyenvantu28011998it@gmail.com </p>
                 </div>
                 <div className="flex items-center gap-2">
                     <Phone size={16} /> 
