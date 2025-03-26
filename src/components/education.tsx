@@ -1,6 +1,6 @@
 export default function Education(){
     const keys = [
-        "Another certificates achieved: PSM I (2022), JLPT N3 (2023)", 
+        "Certificates achieved: PSM I (2022), JLPT N3 (2023)", 
     ];
     return <div className="flex flex-col select-text">
         <h3 className="text-xl font-bold text-left">EDUCATION</h3>
