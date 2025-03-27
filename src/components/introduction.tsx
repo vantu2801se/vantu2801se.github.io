@@ -1,13 +1,14 @@
+"use client";
 import Image from 'next/image'
 import profilePic from '../assets/image/me.jpg'
 import Link from "next/link";
 import { Phone, GithubIcon, MapPinHouse, Mail } from 'lucide-react';
 import LangSelector from './langSelector';
-import { useTranslations } from 'next-intl';
-import { Data } from '@/global/const';
+import useTranslate from '@/hooks/useTranslate';
 
-export default function Introduction() {
-    const t = useTranslations();
+export default function Introduction() { 
+    const {t} = useTranslate();
+
     return <div className="flex flex-row my-4 mx-auto gap-4">
         <Image
             className="rounded-3xl shadow-2xl"
@@ -17,10 +18,10 @@ export default function Introduction() {
         />
         <div className="flex flex-col">
             <div className="flex flex-row justify-between ">
-                <h3 className="4xl font-bold">{t(Data["DEVELOPER_NAME"])}</h3>
+                <h3 className="4xl font-bold ">{t("introduction_header_name")}</h3>
                 <LangSelector/>
             </div>
-            <p className="text-xl my-2 font-bold">Backend developer | Software Engineer </p>
+            <p className="text-xl my-2 font-bold w-96 break-words"> {t("introduction_header_role_title")} </p>
             <div className="select-text text-sm mx-4">
                 <div className="flex items-center gap-2">
                     <Mail size={16} /> 
@@ -32,7 +33,7 @@ export default function Introduction() {
                 </div>
                 <div className="flex items-center gap-2">
                     <MapPinHouse size={16} /> 
-                    <p> Lien Chieu, Da Nang</p>
+                    <p> {t("introduction_contact_address")}</p>
                 </div>
                 <div className="flex items-center gap-2">
                     <GithubIcon size={16} /> 
@@ -40,7 +41,7 @@ export default function Introduction() {
                 </div>
             </div>
             <div className="select-text w-96 break-words my-2 text-lg">
-                I&apos;m a self-motivated Web backend developer with the business focus, the learning mindset, always ready for new challenges and 3+ years of experience in the design and develop backend microservice system by Golang. Also researched and participated in building infrastructure in the software development process.
+                {t("introduction_description")}
             </div>
         </div>
     </div>;

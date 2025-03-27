@@ -38,7 +38,7 @@ export default function LangSelector() {
   return (
     <>
     <Select onValueChange={handleChangeLang} value={selectedLang}>
-            <SelectTrigger className="flex items-center justify-between w-[60px] h-[35px] border rounded-full px-4 py-2">
+            <SelectTrigger className="flex items-center justify-between w-[60px] h-[35px] border rounded-full px-4 py-2 bg-white">
                 <Image 
                     src={selectedLangImg}
                     alt="Select a language"
@@ -46,7 +46,7 @@ export default function LangSelector() {
                 />
             </SelectTrigger>
             
-            <SelectContent>
+            <SelectContent className="bg-white">
                 <SelectGroup>
                     <SelectItem value="en" >
                         <div className="flex items-center gap-2">
