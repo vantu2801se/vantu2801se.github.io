@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Phone, GithubIcon, MapPinHouse, Mail } from 'lucide-react';
 import LangSelector from './langSelector';
 import useTranslate from '@/hooks/useTranslate';
+import DownloadCVButton from './downloadCV';
 
 export default function Introduction() { 
     const {t} = useTranslate();
@@ -19,7 +20,11 @@ export default function Introduction() {
         <div className="flex flex-col">
             <div className="flex flex-row justify-between ">
                 <h3 className="4xl font-bold ">{t("introduction_header_name")}</h3>
-                <LangSelector/>
+                <div className="flex flex-row justify-between items-center">
+                   
+                    <DownloadCVButton/>
+                     <LangSelector/>
+                </div>
             </div>
             <p className="text-xl my-2 font-bold w-96 break-words"> {t("introduction_header_role_title")} </p>
             <div className="select-text text-sm mx-4">

@@ -1,8 +1,12 @@
 const VIETNAMESE = {
+    "download_cv":"Tải về",
+    "download_location":"/pdf/tu-nguyen-vi.pdf",
+    "download_file_name": "tu-nguyen-vi.pdf",
+
     "introduction_header_name": "NGUYỄN VĂN TỰ",
     "introduction_header_role_title":"Lập trình viên Backend | Kỹ sư phần mềm",
     "introduction_contact_address": "Liên Chiểu, TP Đà Nẵng",
-    "introduction_description": "Tôi là một lập trình viên web backend tự chủ bản thân, tập trung vào bussiness, có tư duy học hỏi và luôn sẵn sàng cho các thử thách mới. Đã có hơn 3 năm kinh nghiệm trong việc thiết kế và phát triển hệ thống microservice backend bằng Golang. Ngoài ra, cũng tham gia nghiên cứu và xây dựng infrastructure trong quá trình phát triển phần mềm.",
+    "introduction_description": "Tôi là một lập trình viên web backend tự chủ bản thân, tập trung vào bussiness, có tư duy học hỏi và luôn sẵn sàng cho các thử thách mới. Có hơn 3 năm kinh nghiệm trong việc thiết kế và phát triển hệ thống microservice backend bằng Golang. Ngoài ra, cũng tham gia nghiên cứu và xây dựng infrastructure trong quá trình phát triển phần mềm.",
 
     "key_capabilities_title": "KỸ NĂNG CHÍNH",
     "key_capabilities_content_1": "Thành thạo Golang, có thể implement các service tính đồng thời cao và hiệu suất cao",

@@ -3,6 +3,7 @@ import {routing} from '@/i18n/routing';
 import {notFound} from 'next/navigation';
 import '../../style/globals.css';
 import { Locale } from "@/global/type";
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "../../assets/fonts/GeistVF.woff",
@@ -33,7 +34,10 @@ export default async function CVLayout({
   }
 
   return (
-    <html lang="en">
+    <html lang="{locale}">
+      <Head>
+        <link rel="icon" href="/pfavicon.ico" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased` }
       >
