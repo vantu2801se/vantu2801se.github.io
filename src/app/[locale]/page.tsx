@@ -6,7 +6,7 @@ import KeyCapabilities from "@/components/keyCapabilities";
 export async function generateStaticParams() {
   return [{ locale: "en" }, { locale: "ja" }, { locale: "vi" }]; 
 }
-export default function Home() {
+export default function CV() {
   return (
     <div className="min-h-screen text-neutral-800 text-4xl select-none">
       <div className="container mx-auto flex flex-col items-center">

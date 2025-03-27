@@ -20,7 +20,7 @@ export const metadata = {
   description: "Tu Nguyen CV",
 };
 
-export default async function RootLayout({
+export default async function CVLayout({
   children,
   params
 }: Readonly<{
