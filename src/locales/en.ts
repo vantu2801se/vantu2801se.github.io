@@ -2,6 +2,7 @@ const ENLISH = {
     "download_cv":"Download",
     "download_location":"/pdf/tu-nguyen-en.pdf",
     "download_file_name": "tu-nguyen-en.pdf",
+    "born":"01-28-1998",
 
     "introduction_header_name": "TU NGUYEN",
     "introduction_header_role_title":"Backend developer | Software engineer",

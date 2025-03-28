@@ -2,7 +2,7 @@ const JAPANESE = {
     "download_cv":"ダウンロード",
     "download_location":"/pdf/tu-nguyen-ja.pdf",
     "download_file_name": "tu-nguyen-ja.pdf",
-    
+    "born":"1998年1月28日",
     "introduction_header_name": "TU NGUYEN",
     "introduction_header_role_title":"バックエンド開発者 ・ ソフトウェアエンジニア",
     "introduction_contact_address": "ダナン市、 ベトナム ",

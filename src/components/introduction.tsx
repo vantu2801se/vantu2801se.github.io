@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import profilePic from '../assets/image/me.jpg'
 import Link from "next/link";
-import { Phone, GithubIcon, MapPinHouse, Mail } from 'lucide-react';
+import { Phone, GithubIcon, MapPinHouse, Mail, CalendarDaysIcon } from 'lucide-react';
 import LangSelector from './langSelector';
 import useTranslate from '@/hooks/useTranslate';
 import DownloadCVButton from './downloadCV';
@@ -21,7 +21,6 @@ export default function Introduction() {
             <div className="flex flex-row justify-between ">
                 <h3 className="4xl font-bold ">{t("introduction_header_name")}</h3>
                 <div className="flex flex-row justify-between items-center">
-                   
                     <DownloadCVButton/>
                      <LangSelector/>
                 </div>
@@ -35,6 +34,10 @@ export default function Introduction() {
                 <div className="flex items-center gap-2">
                     <Phone size={16} /> 
                     <p> (+84) 965 031 436 </p>
+                </div>
+                <div className="flex items-center gap-2">
+                    <CalendarDaysIcon size={16}/>
+                    <p> {t("born")} </p>
                 </div>
                 <div className="flex items-center gap-2">
                     <MapPinHouse size={16} /> 

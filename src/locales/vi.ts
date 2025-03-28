@@ -2,6 +2,7 @@ const VIETNAMESE = {
     "download_cv":"Tải về",
     "download_location":"/pdf/tu-nguyen-vi.pdf",
     "download_file_name": "tu-nguyen-vi.pdf",
+    "born":"28-01-1998",
 
     "introduction_header_name": "NGUYỄN VĂN TỰ",
     "introduction_header_role_title":"Lập trình viên Backend | Kỹ sư phần mềm",
