@@ -10,7 +10,8 @@ export const Data: Record<string, string> = {
 export const I18N_LOCALES = [
     "en",
     "ja",
-    "vi"
+    "vi",
+    "devops"
 ] as const;
 
 export const I18N_LOCALE_PREFIX = [

@@ -4,9 +4,11 @@ import { usePathname } from "next/navigation";
 import ENGLISH from "@/locales/en";
 import JAPANESE from "@/locales/ja";
 import VIETNAMESE from "@/locales/vi";
+import DEVOPS from "@/locales/devops";
 
 type TranslationType = Record<string,string>
 const LangMap: Record<string, TranslationType> = {
+  devops: DEVOPS,
   en: ENGLISH,
   ja: JAPANESE,
   vi: VIETNAMESE,

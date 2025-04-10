@@ -4,7 +4,7 @@ import Footer from "@/components/footer";
 import Introduction from "@/components/introduction";
 import KeyCapabilities from "@/components/keyCapabilities";
 export async function generateStaticParams() {
-  return [{ locale: "en" }, { locale: "ja" }, { locale: "vi" }]; 
+  return [{ locale: "en" }, { locale: "ja" }, { locale: "vi" }, {locale: "devops"}]; 
 }
 export default function CV() {
   return (

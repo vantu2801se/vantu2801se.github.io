@@ -18,8 +18,9 @@ export default function LangSelector() {
   const pathname = usePathname();
   const currentLang = pathname.split("/")[1] as LanguageKey;
 
-  type LanguageKey = "en" | "ja" | "vi"
+  type LanguageKey = "en" | "ja" | "vi" | "devops"
   const langOptions: Record<LanguageKey, { label: string; img: StaticImageData  }> = {
+    devops: { label: "English", img: enImg },
     en: { label: "English", img: enImg },
     ja: { label: "Japanese", img: jaImg },
     vi: { label: "Vietnamese", img: viImg },
