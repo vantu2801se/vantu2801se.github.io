@@ -6,7 +6,7 @@ const ENLISH = {
 
     "introduction_header_name": "TU NGUYEN",
     "introduction_header_role_title":"Backend developer | Software engineer",
-    "introduction_contact_address": "Tay Ho, Ha Noi, VietNam",
+    "introduction_contact_address": "Da Nang, VietNam",
     "introduction_description": "I'm a self-motivated Web backend developer with the business focus, the learning mindset, always ready for new challenges and 3+ years of experience in the design and develop backend microservice system by Golang. Also researched and participated in building infrastructure in the software development process.", 
 
     "key_capabilities_title": "KEY CAPABILITIES",
