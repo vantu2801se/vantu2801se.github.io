@@ -4,7 +4,7 @@ const VIETNAMESE = {
     "download_file_name": "tu-nguyen-vn.pdf",
     "born":"28-01-1998",
 
-    "introduction_header_name": "NGUYỄN TÚ",
+    "introduction_header_name": "NGUYỄN VĂN TỰ",
     "introduction_header_role_title":"Backend Developer | Kỹ sư phần mềm",
     "introduction_contact_address": "Cầu Giấy, Hà Nội, Việt Nam",
     "introduction_description": "Tôi là một lập trình viên Web backend có động lực tự thân, có tư duy học hỏi, luôn sẵn sàng đối mặt với thử thách mới và hơn 4 năm kinh nghiệm trong thiết kế hệ thống và phát triển backend microservice bằng Golang. Tôi cũng đã nghiên cứu và tham gia xây dựng hạ tầng trong quy trình phát triển phần mềm.",
