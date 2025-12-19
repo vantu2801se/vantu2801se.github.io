@@ -7,7 +7,7 @@ const VIETNAMESE = {
     "introduction_header_name": "NGUYỄN VĂN TỰ",
     "introduction_header_role_title":"Backend Developer | Kỹ sư phần mềm",
     "introduction_contact_address": "Cầu Giấy, Hà Nội, Việt Nam",
-    "introduction_description": "Tôi là một lập trình viên Web backend có động lực tự thân, có tư duy học hỏi, luôn sẵn sàng đối mặt với thử thách mới và hơn 4 năm kinh nghiệm trong thiết kế hệ thống và phát triển backend microservice bằng Golang. Tôi cũng đã nghiên cứu và tham gia xây dựng hạ tầng trong quy trình phát triển phần mềm.",
+    "introduction_description": "Tôi là một lập trình viên Web backend tự chủ trong công việc, có tư duy học hỏi, luôn sẵn sàng đối mặt với thử thách mới và hơn 4 năm kinh nghiệm trong thiết kế hệ thống và phát triển backend microservice bằng Golang. Tôi cũng đã nghiên cứu và tham gia xây dựng hạ tầng trong quy trình phát triển phần mềm.",
 
     "key_capabilities_title": "NĂNG LỰC CHÍNH",
     "key_capabilities_content_1": "Thành thạo Golang, có thể phát triển các dịch vụ có độ đồng thời cao và hiệu năng tốt, triển khai RESTful APIs, gRPC service và WebSocket.",
